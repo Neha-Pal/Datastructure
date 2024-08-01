@@ -46,12 +46,15 @@ int main(){
 
     //Enqueuing
     printf("Enqueued\n");
-    for(int i = 0 ; i < 5 ; i++){
-        Enqueue(q,i+1);
-    }
+    Enqueue(q,5);
+    Enqueue(q,15);
+    Enqueue(q,50);
+    Enqueue(q,25);
+    Enqueue(q,35);
+    Enqueue(q,85);
+
     //Dequeuing
     printf("\nDequeued\n");
-    for(int i = 0 ; i < 6 ;i++){
-        Dequeue(q);
-    }
+    Dequeue(q);
+    Dequeue(q);
 }
