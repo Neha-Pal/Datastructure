@@ -20,6 +20,8 @@ struct node* createNode(int data){
    1   6
   / \
  5   2
+
+ Pre Order -> 4-1-5-2-6
 */
 void PreOrder(struct node* root){
     if(root!=NULL){
